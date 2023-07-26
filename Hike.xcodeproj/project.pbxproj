@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC4C104B2A71AD95001DD589 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4C104A2A71AD95001DD589 /* ColorExtension.swift */; };
+		EC4C104D2A71B22C001DD589 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4C104C2A71B22C001DD589 /* CustomButtonView.swift */; };
+		EC4C104F2A71BB8F001DD589 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4C104E2A71BB8F001DD589 /* GradientButtonStyle.swift */; };
+		EC4C10512A71C517001DD589 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4C10502A71C517001DD589 /* CustomCircleView.swift */; };
 		EC5140492A71735000C41F50 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5140482A71735000C41F50 /* HikeApp.swift */; };
 		EC51404B2A71735000C41F50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51404A2A71735000C41F50 /* ContentView.swift */; };
 		EC51404D2A71735100C41F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC51404C2A71735100C41F50 /* Assets.xcassets */; };
 		EC5140502A71735100C41F50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC51404F2A71735100C41F50 /* Preview Assets.xcassets */; };
+		EC5140572A7176A900C41F50 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5140562A7176A900C41F50 /* CardView.swift */; };
+		EC51405A2A7177EB00C41F50 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5140592A7177EB00C41F50 /* CustomBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC4C104A2A71AD95001DD589 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		EC4C104C2A71B22C001DD589 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		EC4C104E2A71BB8F001DD589 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		EC4C10502A71C517001DD589 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		EC5140452A71735000C41F50 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5140482A71735000C41F50 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		EC51404A2A71735000C41F50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC51404C2A71735100C41F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC51404F2A71735100C41F50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC5140562A7176A900C41F50 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EC5140592A7177EB00C41F50 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC4C10492A71AD7D001DD589 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EC4C104A2A71AD95001DD589 /* ColorExtension.swift */,
+				EC4C104E2A71BB8F001DD589 /* GradientButtonStyle.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		EC51403C2A71734F00C41F50 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +72,10 @@
 		EC5140472A71735000C41F50 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				EC4C10492A71AD7D001DD589 /* Utility */,
 				EC5140482A71735000C41F50 /* HikeApp.swift */,
 				EC51404A2A71735000C41F50 /* ContentView.swift */,
+				EC5140582A7177AB00C41F50 /* Component */,
 				EC51404C2A71735100C41F50 /* Assets.xcassets */,
 				EC51404E2A71735100C41F50 /* Preview Content */,
 			);
@@ -65,6 +88,17 @@
 				EC51404F2A71735100C41F50 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC5140582A7177AB00C41F50 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				EC5140562A7176A900C41F50 /* CardView.swift */,
+				EC5140592A7177EB00C41F50 /* CustomBackgroundView.swift */,
+				EC4C104C2A71B22C001DD589 /* CustomButtonView.swift */,
+				EC4C10502A71C517001DD589 /* CustomCircleView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +172,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC51404B2A71735000C41F50 /* ContentView.swift in Sources */,
+				EC4C10512A71C517001DD589 /* CustomCircleView.swift in Sources */,
+				EC5140572A7176A900C41F50 /* CardView.swift in Sources */,
 				EC5140492A71735000C41F50 /* HikeApp.swift in Sources */,
+				EC4C104D2A71B22C001DD589 /* CustomButtonView.swift in Sources */,
+				EC4C104F2A71BB8F001DD589 /* GradientButtonStyle.swift in Sources */,
+				EC51405A2A7177EB00C41F50 /* CustomBackgroundView.swift in Sources */,
+				EC4C104B2A71AD95001DD589 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
