@@ -49,8 +49,7 @@ struct MotionAnimationView: View {
                     .frame(width: randomSize())
                     .position(
                         x: randomCoordinate(),
-                        y: randomCoordinate()
-                    )
+                        y: randomCoordinate())
                     .scaleEffect(isAnimating ? randomScale() : 1)
                     .onAppear(perform: {
                         withAnimation(
@@ -62,15 +61,19 @@ struct MotionAnimationView: View {
             }
         } //: ZSTACK
         .frame(width: 256, height: 256)
+        .mask(Circle())
+        .drawingGroup()
     }
 }
 
 struct MotionAnimationView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            Color.teal.ignoresSafeArea()
-
             MotionAnimationView()
+                .background(
+                    Circle()
+                        .fill(.teal)
+                )
         }
     }
 }
