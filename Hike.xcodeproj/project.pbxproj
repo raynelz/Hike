@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC48C6CB2A72735F008B3AC5 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC48C6CA2A72735F008B3AC5 /* MotionAnimationView.swift */; };
 		EC4C104B2A71AD95001DD589 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4C104A2A71AD95001DD589 /* ColorExtension.swift */; };
 		EC4C104D2A71B22C001DD589 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4C104C2A71B22C001DD589 /* CustomButtonView.swift */; };
 		EC4C104F2A71BB8F001DD589 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4C104E2A71BB8F001DD589 /* GradientButtonStyle.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC48C6CA2A72735F008B3AC5 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		EC4C104A2A71AD95001DD589 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		EC4C104C2A71B22C001DD589 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		EC4C104E2A71BB8F001DD589 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				EC5140592A7177EB00C41F50 /* CustomBackgroundView.swift */,
 				EC4C104C2A71B22C001DD589 /* CustomButtonView.swift */,
 				EC4C10502A71C517001DD589 /* CustomCircleView.swift */,
+				EC48C6CA2A72735F008B3AC5 /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				EC5140492A71735000C41F50 /* HikeApp.swift in Sources */,
 				EC4C104D2A71B22C001DD589 /* CustomButtonView.swift in Sources */,
 				EC4C104F2A71BB8F001DD589 /* GradientButtonStyle.swift in Sources */,
+				EC48C6CB2A72735F008B3AC5 /* MotionAnimationView.swift in Sources */,
 				EC51405A2A7177EB00C41F50 /* CustomBackgroundView.swift in Sources */,
 				EC4C104B2A71AD95001DD589 /* ColorExtension.swift in Sources */,
 			);
