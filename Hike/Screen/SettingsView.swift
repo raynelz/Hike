@@ -62,16 +62,42 @@ struct SettingsView: View {
                 .frame(maxWidth: .infinity)
             } //: HEADER
             .listRowSeparator(.hidden)
-
+            
             // MARK: - SECTION: ICONS
-
+            
             // MARK: - SECTION: ABOUT
-        } //: LIST
+            
+            Section(
+                header: Text("ABOUT THE APP"),
+                footer: HStack {
+                    Spacer()
+                    Text("Copyright © All rights reserved")
+                    Spacer()
+                }
+                .padding(.vertical, 8)
+            ) {
+                // 1. Basic Labeled Content
+                
+                // LabeledContent("Application", value: "Hike")
+                
+                // 2. Advanced Labeled Content
+                
+                CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "HIKE", rowTintColor: .blue)
+                
+                CustomListRowView(rowLabel: "Compatibility", rowIcon: "info.circle", rowContent: "iOS,iPadOS", rowTintColor: .red)
+                
+                CustomListRowView(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
+                
+                CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "Zahar Litvinchuk", rowTintColor: .mint)
+                
+                CustomListRowView(rowLabel: "Community", rowIcon: "globe", rowContent: "https://t.me/hello_swift", rowTintColor: .indigo)
+            } //: LIST
+        }
     }
-}
-
-struct SettingsView_Previews: PreviewProvider {
-    static var previews: some View {
-        SettingsView()
+    
+    struct SettingsView_Previews: PreviewProvider {
+        static var previews: some View {
+            SettingsView()
+        }
     }
 }
